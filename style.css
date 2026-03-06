@@ -267,3 +267,14 @@ body{
   transform:scale(1.02);
 }
 
+.img-back-card{
+  position:absolute;
+  top:0;
+  left:0;
+  width:80%;
+  height:90%;
+  background:#e9ecef;
+  border-radius:30px;
+  z-index:1;
+}
+
