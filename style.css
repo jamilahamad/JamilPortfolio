@@ -169,6 +169,7 @@ body{
   to{ opacity:1; transform:translateY(0); }
 }
 
+/* floating shapes */
 .shape{
   position:absolute;
   z-index:1;
@@ -245,3 +246,24 @@ body{
   0%{ opacity:1; top:8px; }
   100%{ opacity:0; top:20px; }
 }
+
+/* =========================================================
+   04) ABOUT
+========================================================= */
+.about-img-wrapper{
+  position:relative;
+  padding:20px;
+}
+
+.main-img{
+  position:relative;
+  z-index:2;
+  border-radius:30px;
+  transition:transform .4s ease;
+  width:100%;
+}
+
+.about-img-wrapper:hover .main-img{
+  transform:scale(1.02);
+}
+
