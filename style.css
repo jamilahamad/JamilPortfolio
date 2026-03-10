@@ -350,3 +350,91 @@ body{
   font-weight:600;
   padding:15px 30px;
 }
+
+/* =========================================================
+   05) SKILLS
+========================================================= */
+.skill-category-card{
+  background:#fff;
+  padding:30px;
+  border-radius:22px;
+  border:1px solid #eee;
+  height:100%;
+  transition:all .3s ease;
+  box-shadow:0 8px 22px rgba(0,0,0,.025);
+}
+
+.skill-category-card:hover{
+  box-shadow:0 15px 30px rgba(0,0,0,.05);
+  border-color:var(--primary-color);
+  transform:translateY(-6px);
+}
+
+.skill-items{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.skill-item{
+  background:#fff;
+  padding:10px 18px;
+  border-radius:12px;
+  border:1px solid #f0f0f0;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-weight:600;
+  font-size:.95rem;
+  cursor:default;
+  box-shadow:0 2px 5px rgba(0,0,0,.02);
+  transition:.3s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.skill-item i{
+  font-size:1.1rem;
+}
+
+.skill-item:hover{
+  transform:translateY(-5px) scale(1.04);
+  border-color:var(--primary-color);
+  box-shadow:0 8px 15px rgba(0,0,0,.08);
+}
+
+/* icon hover colors */
+.skill-item:hover i.fa-html5{ 
+  color:#e34c26; 
+}
+.skill-item:hover i.fa-css3-alt{ 
+  color:#264de4; 
+}
+.skill-item:hover i.fa-js{ 
+  color:#f7df1e; 
+}
+.skill-item:hover i.fa-react{ 
+  color:#61dbfb; 
+}
+.skill-item:hover i.fa-node-js{ 
+  color:#68a063; 
+}
+.skill-item:hover i.fa-python{ 
+  color:#3776ab; 
+}
+.skill-item:hover i.fa-java{ 
+  color:#f89820; 
+}
+.skill-item:hover i.fa-google{ 
+  color:#02569b; 
+}
+.skill-item:hover i.fa-bolt{ 
+  color:#45d1fd; 
+}
+.skill-item:hover i.fa-php{ 
+  color:#777bb3; 
+}
+.skill-item.mongodb-item:hover i{ 
+  color:#47a248; 
+}
+.skill-item.mysql-item:hover i{ 
+  color:#00758f; 
+}
