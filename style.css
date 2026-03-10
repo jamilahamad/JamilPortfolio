@@ -545,3 +545,40 @@ body{
   justify-content:center;
 }
 
+.contact-icon-circle{
+  width:45px;
+  height:45px;
+  background:rgba(255,255,255,.15);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.1rem;
+  transition:.3s;
+}
+
+.contact-icon-circle:hover{
+  background:#fff;
+  color:var(--primary-color);
+}
+
+.social-links-contact a{
+  width:40px;
+  height:40px;
+  border:1px solid rgba(255,255,255,.3);
+  border-radius:50%;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  transition:all .3s ease;
+}
+
+.social-links-contact a:hover{
+  background:#fff;
+  color:var(--primary-color);
+  transform:translateY(-3px);
+}
+
+
