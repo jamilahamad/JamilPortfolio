@@ -499,3 +499,31 @@ body{
 .project-card:hover .overlay-icon i{
   transform:scale(1);
 }
+
+.project-content h5{
+  transition:color .3s;
+}
+
+.project-card:hover h5{
+  color:var(--primary-color);
+}
+
+/* badges */
+.bg-soft-primary{ 
+  background-color:rgba(13,110,253,.1); 
+}
+.bg-soft-success{ 
+  background-color:rgba(25,135,84,.1); 
+}
+.bg-soft-info{ 
+  background-color:rgba(13,202,240,.1); 
+}
+.bg-soft-danger{ 
+  background-color:rgba(220,53,69,.1); 
+}
+.bg-soft-warning{ 
+  background-color:rgba(255,193,7,.1); 
+}
+.bg-soft-dark{ 
+  background-color:rgba(33,37,41,.1); 
+}
