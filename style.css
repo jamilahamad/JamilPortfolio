@@ -456,3 +456,24 @@ body{
   box-shadow:0 20px 40px rgba(0,0,0,.1)!important;
 }
 
+.project-img-window{
+  position:relative;
+  height:250px;
+  overflow:hidden;
+  background:#f0f0f0;
+  border-bottom:1px solid rgba(0,0,0,.05);
+}
+
+.project-scroll-img{
+  width:100%;
+  height:auto;
+  display:block;
+  transition:transform 4s ease-in-out;
+  transform:translateY(0);
+}
+
+.project-card:hover .project-scroll-img{
+  transform:translateY(calc(-100% + 250px));
+}
+
+
