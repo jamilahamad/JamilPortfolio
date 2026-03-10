@@ -439,9 +439,6 @@ body{
   color:#00758f; 
 }
 
-/* =========================================================
-   06) PROJECTS
-========================================================= */
 .project-card{
   background:#fff;
   border-radius:20px;
@@ -476,4 +473,29 @@ body{
   transform:translateY(calc(-100% + 250px));
 }
 
+.overlay-icon{
+  position:absolute;
+  inset:0;
+  background:rgba(13,110,253,.2);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  opacity:0;
+  transition:.3s;
+  pointer-events:none;
+}
 
+.overlay-icon i{
+  font-size:2rem;
+  color:#fff;
+  transform:scale(.5);
+  transition:.3s;
+}
+
+.project-card:hover .overlay-icon{
+  opacity:1;
+}
+
+.project-card:hover .overlay-icon i{
+  transform:scale(1);
+}
