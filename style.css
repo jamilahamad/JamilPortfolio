@@ -617,3 +617,10 @@ body{
   transform:translateY(-2px);
   box-shadow:0 10px 20px rgba(13,110,253,.3)!important;
 }
+
+/* =========================================================
+   08) FOOTER
+========================================================= */
+.footer-custom{
+  background:#fff;
+}
