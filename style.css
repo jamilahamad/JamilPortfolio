@@ -638,3 +638,34 @@ body{
   opacity:1;
   transform:translateY(0);
 }
+
+/* =========================================================
+   10) RESPONSIVE
+========================================================= */
+@media (max-width:991px){
+  .contact-info-side{
+    padding:40px 30px !important;
+  }
+
+  .hero-section{
+    padding-top:110px;
+    text-align:center;
+  }
+
+  .display-1{
+    font-size:3rem;
+  }
+
+  .navbar-collapse{
+    margin-top:14px;
+    background:rgba(255,255,255,.95);
+    padding:18px;
+    border-radius:18px;
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+  }
+
+  .navbar-nav .nav-link{
+    margin-left:0;
+    padding:10px 0;
+  }
+}
