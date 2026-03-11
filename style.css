@@ -624,3 +624,17 @@ body{
 .footer-custom{
   background:#fff;
 }
+
+/* =========================================================
+   09) REVEAL ANIMATION
+========================================================= */
+.reveal{
+  opacity:0;
+  transform:translateY(40px);
+  transition:all .9s cubic-bezier(.17,.67,.83,.67);
+}
+
+.reveal.active{
+  opacity:1;
+  transform:translateY(0);
+}
